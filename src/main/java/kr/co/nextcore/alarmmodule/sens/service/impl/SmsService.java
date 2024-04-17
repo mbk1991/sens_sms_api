@@ -1,5 +1,6 @@
-package kr.co.nextcore.alarmmodule.sens.service;
+package kr.co.nextcore.alarmmodule.sens.service.impl;
 
+import kr.co.nextcore.alarmmodule.sens.service.SensService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.simple.JSONArray;
