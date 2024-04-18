@@ -66,6 +66,8 @@ public class SmsService extends SensService {
         JSONArray messages = new JSONArray();
 
         for (String phoneNo : phoneNumbers.split(";")) {
+            phoneNo = phoneNo.trim().replaceAll("-","");
+
             JSONObject o = new JSONObject();
             o.put("to", phoneNo);
             o.put("content", message);

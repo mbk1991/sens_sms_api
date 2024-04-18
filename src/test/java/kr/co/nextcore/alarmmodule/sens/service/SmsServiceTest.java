@@ -124,6 +124,16 @@ class SmsServiceTest {
 
         return encodeBase64String;
     }
+    
+    @Test
+    void 테스트(){
+        String ip = "192.168.10.10:8080";
+        
+        ip = ip.substring(0, ip.indexOf(":"))+":33333";
+        System.out.println("ip = " + ip);
+        
+        
+    }
 
 
 }

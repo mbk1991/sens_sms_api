@@ -18,8 +18,6 @@ public class SensController {
 
     @PostMapping(value = "/sms")
     public String sendSms(@RequestBody SmsVo sms){
-
-
             smsService.callSmsAPI(sms.getPhoneNumbers(), sms.getMessage());
             return "success";
     }
