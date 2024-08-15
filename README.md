@@ -1,5 +1,5 @@
-# 네이버 클라우드 Sens SMS API 모듈
-:네이버 클라우드 Sens SMS API의 Wrapper API입니다.
+# 네이버 클라우드 Sens SMS API
+:네이버 클라우드 Sens SMS API의 Wrapper API. SMS 발송 기능이 필요한 솔루션의 경우 해당 모듈을 재사용하고자 개발.
 
 # Specification
 <ul>
